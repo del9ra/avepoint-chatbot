@@ -120,3 +120,8 @@ requests==2.31.0
 - Check that port 8501 is available
 - Try running on a different port: `streamlit run app.py --server.port 8502`
 
+## Screenshots
+<img width="1435" height="659" alt="Screenshot 2025-11-26 at 09 13 22" src="https://github.com/user-attachments/assets/24b9a23c-42c8-42f1-850b-d5f5c5bc20b4" />
+<img width="1436" height="652" alt="Screenshot 2025-11-26 at 09 14 08" src="https://github.com/user-attachments/assets/75825589-5c7d-40f0-93ae-9764329a5a5e" />
+<img width="1264" height="636" alt="Screenshot 2025-11-26 at 09 15 27" src="https://github.com/user-attachments/assets/a6b34dd2-272e-4258-8753-18241e9a694f" />
+<img width="1415" height="652" alt="Screenshot 2025-11-26 at 09 16 24" src="https://github.com/user-attachments/assets/f517a85f-cb5f-4d4a-8c6d-fa8bb69d8492" />
