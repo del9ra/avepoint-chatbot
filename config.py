@@ -1,0 +1,2 @@
+CONF_CALENDLY_TOKEN="calendly"
+CONF_OPENAPI_KEY="openai"
