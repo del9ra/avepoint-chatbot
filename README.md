@@ -35,20 +35,20 @@ AI-powered chatbot that helps with meeting management, company information, and 
 1. **Clone or download this repository**
 
 2. **Install dependencies:**
-```bash
+```
    pip install -r requirements.txt
 ```
 
 3. **Configure API keys:**
    
-   Open `app.py` and add your API keys at the top:
+   Open `config.py` and add your API keys at the top:
 ```python
-   openai.api_key = "your-openai-key-here"
-   CALENDLY_TOKEN = "your-calendly-token-here"
+   CONF_OPENAPI_KEY = "your-openai-key-here"
+   CONF_CALENDLY_TOKEN = "your-calendly-token-here"
 ```
 
 4. **Run the application:**
-```bash
+```
    streamlit run app.py
 ```
 
@@ -92,7 +92,8 @@ AI-powered chatbot that helps with meeting management, company information, and 
 ## Project Structure
 ```
 avepoint-chatbot/
-├── app.py                 # Main application file
+├── app.py                # Main application file
+├── config.py             # API keys
 ├── README.md             # This file
 ├── requirements.txt      # Python dependencies
 └── PRESENTATION.md       # Technical write-up
